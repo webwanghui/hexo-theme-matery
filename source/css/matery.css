@@ -247,6 +247,12 @@ mark {
 .bg-color a{
     color:#000;
 }
+.bg-color .links{
+  color:#dbdbdb;
+}
+.bg-color .links:hover{
+  color:#000;
+}
 .text-color {
     color: #0f9d58 !important;
 }
