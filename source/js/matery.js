@@ -139,9 +139,11 @@ $(function () {
         let showPosition = 100;
         if (position < showPosition) {
             $nav.addClass('nav-transparent');
+            // $nav.find('.logo-img').attr('src','/medias/logo.png')
             $backTop.slideUp(300);
         } else {
             $nav.removeClass('nav-transparent');
+            // $nav.find('.logo-img').attr('src','/medias/logo2.png')
             $backTop.slideDown(300);
         }
     }
